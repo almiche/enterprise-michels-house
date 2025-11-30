@@ -1,0 +1,12 @@
+# Example terraform.tfvars file
+# Copy this to terraform.tfvars and fill in your actual values
+# terraform.tfvars should NOT be committed to version control
+
+unifi_api_key        = "your_api_key_here"
+unifi_api_url        = "https://your-unifi-controller:8443"
+unifi_site           = "default"
+unifi_allow_insecure = false
+
+wifi_ssid        = "your_wifi_ssid_here"
+wifi_passphrase  = "your_wifi_password_here"
+
